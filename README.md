@@ -9,5 +9,6 @@ To run this app locally:
   - `APP_SESSION_KEY`: can be anything
   - `CLIENT_ID`: generate by registering an application [here](https://developer.spotify.com/my-applications/#!/applications)
   - `CLIENT_SECRET`: generate by registering an application [here](https://developer.spotify.com/my-applications/#!/applications)
-5. Run `python app.py`
-6. Navigate to http://127.0.0.1:8080/
+5. Add `http://127.0.0.1:8080/callback/q` to the Redirect URIs in the Spotify console for you newly registered app
+6. Run `python app.py`
+7. Navigate to http://127.0.0.1:8080/
