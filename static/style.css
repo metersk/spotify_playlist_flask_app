@@ -1,0 +1,128 @@
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #828282;
+    height: 40px;
+    width: 100%;
+}
+
+header .logo {
+    vertical-align: middle;
+    font-size: 1.7em;
+    color: #23CF5F;
+    font-family: Futura;
+    margin-top: 0px;
+    margin-left: 5%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-style {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.form-style input[type=submit],
+.form-style input[type=button],
+.form-style input[type=text],
+.form-style label {
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-style label {
+    margin-bottom: 2%;
+}
+
+.form-style label > span {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-style input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #ecebe8;
+    width: 100%;
+    outline: none;
+    font-style: italic;
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+.form-style input[type=text]:focus,
+{
+    border-bottom: 1px dashed #ecebe8;
+}
+
+.form-style input[type=submit],
+.form-style input[type=button] {
+    background: #249446;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Futura;
+    margin: auto;
+    display: block;
+}
+
+.form-style input[type=submit]:hover,
+.form-style input[type=button]:hover {
+    background: #23CF5F;
+}
+
+div #slider{
+    width: 40%;
+    text-align: center;
+}
+
+.sorry {
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #23CF5F;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #23CF5F;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #23CF5F;
+}
+
+a:focus {
+    text-decoration: none;
+    color: #23CF5F;
+}
+
+.play_link {
+    font-family: Futura, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+

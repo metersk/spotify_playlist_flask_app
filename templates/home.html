@@ -1,0 +1,32 @@
+{% extends "layout.html" %} {% block content %}
+<div class="container">
+<h1 class="sorry">Please enter up to 5 total artists and/or tracks (comma separated, if more than 1)</h1>
+
+    <form class="form-style" action="" method="GET" name="form">
+        <label for="artists">
+            <span>Enter Artists
+            </span>
+            <input type="text" name="artists" />
+        </label>
+        <br>
+        <label for="tracks">
+            <span>Enter Songs
+            </span>
+            <input type="text" name="tracks" />
+        </label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="playlist_name">
+            <span>Name Your Playlist
+            </span>
+            <input type="text" name="playlist_name" required="true" />
+        </label>
+        <label>
+            <input type="submit" value="Submit" />
+        </label>
+    </form>
+</div>
+{% endblock %}
